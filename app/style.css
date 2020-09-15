@@ -6,6 +6,7 @@
 
 }
 
+
 .header{
     position: relative;
     
@@ -565,6 +566,11 @@ footer{
     position: fixed;
 }
 
+@media screen and (max-width: 1200px )and((min-width:1024px)) {
+.parg h1{
+font-size: 30px;;
+}
+}
 @media screen and (max-width: 1024px) {
   
     .hc{
