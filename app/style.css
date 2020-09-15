@@ -1275,7 +1275,7 @@ width:0px;
     @media screen and (max-width:430px){
 
         .lf{
-            margin-left: 1650px;
+            margin-left: 1550px;
             margin-top: 1460px;
             height: 410px;
         
@@ -1292,11 +1292,28 @@ width:0px;
     }
     @media screen and (max-width:385px){
 
+        .logos{
+            width:1450px;
+        }
         .lf{
-            margin-left: 1440px;
+            margin-left: 1340px;
             margin-top: 1460px;
             height: 410px;
         
+        }
+        .box p{
+            margin-left: -200px;
+        }
+        .boxes p{
+            margin-left: -160px;
+        }
+        .parg h3{
+            width:280%;
+        }
+    }
+    @media screen and (min-width:260px){
+        .lf{
+            left: -150px;;
         }
     }
     
@@ -1396,6 +1413,6 @@ width:0px;
         height: 1200px;
     }
     .lf {
-        margin-left: 1300px;
+        margin-left: 1200px;
         margin-top: 1400px;
     }}
