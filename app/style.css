@@ -141,7 +141,7 @@ line-height: 30px;
     margin-top: -20px;
     padding-bottom: 30px;
     padding-top: 20px;
-    font-size: 50px;
+    font-size: 41px;
     
 }
 
@@ -154,6 +154,7 @@ line-height: 30px;
   margin: 20px;
   display: flex;
   flex-direction: column;
+  
   
  
 
@@ -566,11 +567,8 @@ footer{
     position: fixed;
 }
 
-@media screen and (max-width: 1200px )and((min-width:1024px)) {
-.parg h1{
-font-size: 30px;;
-}
-}
+
+
 @media screen and (max-width: 1024px) {
   
     .hc{
@@ -636,6 +634,7 @@ font-size: 30px;;
     .lt{
         padding-top: 120px;
         padding-left: 40px;
+        
     }
     .lt p {
         
@@ -644,6 +643,7 @@ font-size: 30px;;
         position: absolute;
         font-size: 60px;
         font-weight: bolder;
+        width:100%;
     
     }
     .lt hr {
@@ -680,6 +680,8 @@ font-size: 30px;;
     .description p{
         padding-top:30px ;
       text-align: justify;
+      font-size: 40px;
+      
     }
     .boxes >.description{
         padding-top:40px;
@@ -794,14 +796,14 @@ width:0px;
   }
 .flogo img
 {
-    margin-top: 1300px;
+    margin-top: 1100px;
     
     margin-left: -80px;
     width: 300px;
 
 }
 .faddr{
-    margin-top: 1539px;
+    margin-top: 1339px;
     margin-left: 50px;
     font-size: 30px;
     width:400px;
@@ -811,14 +813,43 @@ width:0px;
     line-height: 30px;
 }
 .lf{
-    margin-left: 2050px;
-    margin-top: 1000px;
+    margin-left: 2150px;
+    margin-top: 810px;
+    height: 410px;
 
 }
 .aes{
     visibility: hidden;
 }
 }
+@media screen and (max-width: 950px) {
+    .hib{
+        width:240%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .hib{
+        width:255%;
+    }
+}
+@media screen and (max-width: 850px) {
+    .hib{
+        width:255%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .hib{
+        width:256%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .hib{
+        width:266%;
+    }
+}
+
+
 @media screen and (max-width: 800px) {
     .logos{
         display: flex;
@@ -940,11 +971,28 @@ width:0px;
       
       
     }
+    .boxes .img{
+       margin-left: 50%;; 
+    }
+    .boxes .title{
+        margin-left: 50%;; 
+        width:100%;
+     }
+     .box .img{
+        margin-right: -70%;
+        padding-left: 400px;
+        
+     }
+     .box .title{
+         margin-left: 90%;; 
+         width:100%;
+      }
     .description p{
         padding-top:30px ;
       text-align: justify;
-      width:700px;
+      width:1200px;
       font-size: 50px;
+      
     }
    
     
@@ -1118,9 +1166,11 @@ width:0px;
              
          
          }
-         .lf {
-            margin-left: 2000px;
-            margin-top: 1000px;
+         .lf{
+            margin-left: 1950px;
+            margin-top: 1010px;
+            height: 410px;
+        
         }
     }
     @media screen and (max-width:500px){
@@ -1131,12 +1181,32 @@ width:0px;
              
          
          }
-         .lf {
+         .lf{
             margin-left: 1900px;
-            margin-top: 1000px;
+            margin-top: 1010px;
+            height: 410px;
+        
         }
     }
+    @media screen and (max-width:490px){
+        .logos{
+            display: flex;
+            width:1880px;
+             align-content: center;
+             
+         
+         }
+    
+        .lf{
+        margin-left: 1850px;
+        margin-top: 1010px;
+        height: 410px;
+    
+    }}
     @media screen and (max-width:470px){
+        .vid{
+            height: 1200px;;
+        }
         .logos{
             display: flex;
             width:1500px;
@@ -1144,9 +1214,11 @@ width:0px;
              
          
          }
-         .lf {
-            margin-left: 1400px;
-            margin-top: 1000px;
+         .lf{
+            margin-left: 1780px;
+            margin-top: 1460px;
+            height: 410px;
+        
         }
         .clt p {
             width: 1500px;
@@ -1173,7 +1245,61 @@ width:0px;
             padding-left: 800px;
             
         }
+        
+        .box,.boxes{
+           margin-right: 28%;;
+        }
+        .flogo img{
+            margin-top: 1700px;
+        }
+        .faddr{
+            margin-top: 1939px;
+            margin-left: 50px;
+            font-size: 30px;
+            width:400px;
+           
+        }
+        .faddr p{
+            line-height: 30px;
+        }
     }
+    @media screen and (max-width:460px){
+
+        .lf{
+            margin-left: 1700px;
+            margin-top: 1460px;
+            height: 410px;
+        
+        }
+    }
+    @media screen and (max-width:430px){
+
+        .lf{
+            margin-left: 1650px;
+            margin-top: 1460px;
+            height: 410px;
+        
+        }
+    }
+    @media screen and (max-width:410px){
+
+        .lf{
+            margin-left: 1600px;
+            margin-top: 1460px;
+            height: 410px;
+        
+        }
+    }
+    @media screen and (max-width:385px){
+
+        .lf{
+            margin-left: 1440px;
+            margin-top: 1460px;
+            height: 410px;
+        
+        }
+    }
+    
     @media screen and (max-width:350px){
         .hib{
             margin-top:800px;
@@ -1203,10 +1329,7 @@ width:0px;
              
          
          }
-         .lf {
-            margin-left: 1400px;
-            margin-top: 1000px;
-        }
+       
         .clt p {
             width: 1500px;
             font-size: 70px;
@@ -1235,16 +1358,23 @@ width:0px;
         .description p {
             padding-top: 30px;
             text-align: justify;
-            width: 600px;
+            width: 800px;
             font-size: 50px;
             margin-left: -100px;
         }
         .lt p{
             width: 100pc;
         }
+        .boxes .img{
+            margin-left: -20px;;
+        }
+        .boxes .title{
+            margin-left: -20px;;
+        }
+
         .box .title p{
             font-size: 100px;
-            margin-left: -30px;
+            margin-left: -320px;
         }
         .boxes >.description{
             padding-top:40px;
@@ -1266,6 +1396,6 @@ width:0px;
         height: 1200px;
     }
     .lf {
-        margin-left: 1150px;
-        margin-top: 1000px;
+        margin-left: 1300px;
+        margin-top: 1400px;
     }}
