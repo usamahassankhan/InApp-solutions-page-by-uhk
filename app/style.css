@@ -1138,11 +1138,11 @@ width:0px;
 
 @media screen and (min-height:650px){
     .aes{
-    top: -10%;;
+    top: 100%;;
     }}
     @media screen and (min-height:800px){
         .aes{
-            
+            top: 100%;;  
         }}
     @media screen and (min-width:1000px and max-width:1200px){
 
