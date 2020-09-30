@@ -53,6 +53,7 @@ padding-left: 10px;
     position: absolute;
     top:700%;
     
+    
 
 }
 .more {
@@ -1134,6 +1135,24 @@ width:0px;
     visibility: hidden;
 }
 }
+
+@media screen and (min-height:650px){
+    .aes{
+    top: -10%;;
+    }}
+    @media screen and (min-height:800px){
+        .aes{
+            
+        }}
+    @media screen and (min-width:1000px and max-width:1200px){
+
+        .aes{
+            display: block;
+            
+        }}
+    
+
+
 @media screen and (max-width:600px){
     .hib{
         margin-top:800px;
